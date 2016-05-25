@@ -1,0 +1,159 @@
+body{
+  color: #25262a;
+}
+
+.layout-center-wr{
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header{
+  padding-top: 25px;
+}
+
+.main-header h1{
+  font-size: 20px;
+  line-height: 36px;
+  padding: 0;
+  margin: 0;
+  padding-top: 7px;
+}
+
+.main-header h1 span{
+  color: #0082ad;
+}
+
+.main-header .contact-tel{
+  color: #15b799;
+}
+
+.navbar-nav{
+  width: 100%;
+}
+
+.navbar-nav li{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.slide{
+  width: 1110px;
+  height: 450px;
+  background-image: url("../img/bg-slider.jpg");
+  background-size: cover;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.slide-2{
+  background: #8ad1e8;
+}
+
+.slide-3{
+  background: #64c572;
+}
+
+.slide-title{
+  width: 525px;
+  font-size: 34px;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.slide-text{
+  font-size: 18px;
+  line-height: 30px;
+  width: 470px;
+  margin-bottom: 30px;
+}
+
+.slide-btn{
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width:254px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.slide-ref{
+  display: block;
+  width: 300px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.controls{
+  width: 1110px;
+  height: 100px;
+  margin: auto;
+  height: auto;
+  position: relative;
+}
+
+.controls div{
+  position: absolute;
+  font-size: 50px;
+  height: 100%;
+  top: -275px;
+  left: -80px;
+  color: #fff;
+}
+
+.controls .next{
+  left: 100%;
+}
+
+.features{
+  margin-bottom: 60px;
+}
+
+.row-1{
+  height:490px;
+}
+
+.row-2{
+  height: 450px;
+}
+
+.features-slogan{
+  font-size: 34px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  color: #133a81;
+  text-align: center;
+}
+
+.feature-item{
+  outline: 2px solid red;
+}
+
+.feature-item__title{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.feature-item__text{
+  width: 300px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.row-2{
+  background-image: url("../img/bg-features.jpg");
+}
+
+.row-2 .feature-item{
+  color: #fff;
+}
