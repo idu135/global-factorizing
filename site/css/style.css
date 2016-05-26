@@ -50,7 +50,7 @@ body{
 .contact-mail:before{
   width: 16px;
   height: 16px;
-  background-position: -293px -265px;
+  background-position: -323px -49px;
   display: block;
   content: ' ';
   background-image: url("../img/sprite.png");
@@ -63,7 +63,7 @@ body{
 .contact-mail:before{
   width: 16px;
   height: 12px;
-  background-position: -267px -265px;
+  background-position: -346px -5px;
 }
 
 .navigation-menu{
@@ -94,6 +94,7 @@ body{
 
 .navigation-menu ul li a:hover{
   background-color: #0082ad;
+  color: #fff;
 }
 
 .navigation-menu ul ul{
@@ -116,7 +117,6 @@ body{
   float: none;
   width: 100%;
 }
-
 
 .navigation-menu ul ul a{
   background: #0082ad;
@@ -141,7 +141,7 @@ body{
   width: 1110px;
   height: 450px;
   background-image: url("../img/bg-slider.jpg");
-  background-size: cover;
+  background-position: 50%;
   color: #fff;
   padding-top: 70px;
 }
@@ -204,7 +204,7 @@ body{
   font-size: 50px;
   height: 100%;
   top: -275px;
-  left: -80px;
+  left: -60px;
   color: #fff;
 }
 
@@ -212,28 +212,72 @@ body{
   left: 100%;
 }
 
-.features{
-  margin-bottom: 60px;
+.feature-money{
+  margin-bottom: 50px;
 }
 
-.row-1{
-  height:490px;
-}
-
-.row-2{
-  height: 450px;
-}
-
-.features-slogan{
+.section-title{
   font-size: 34px;
   line-height: 50px;
   margin-bottom: 40px;
   color: #133a81;
   text-align: center;
+  font-weight: 600;
 }
 
 .feature-item{
-  outline: 2px solid red;
+  padding-top: 160px;
+  position: relative;
+}
+
+.feature-item::before{
+  position: absolute;
+  content: "";
+  background: url("../img/sprite.png");
+  top:0;
+  left: 50%;
+}
+
+.col-price::before{
+  width: 108px;
+  height: 107px;
+  background-position: -267px -135px;
+  margin-left: -54px;
+}
+
+.col-timing::before{
+  width: 108px;
+  height: 107px;
+  background-position: -267px -252px;
+  margin-left: -54px;
+}
+
+.col-factoring::before{
+  width: 108px;
+  height: 107px;
+  background-position: -267px -252px;
+  margin-left: -54px;
+}
+
+.col-delay::before{
+  width: 121px;
+  height: 120px;
+  background-position: -192px -5px;
+  margin-left: -60px;
+}
+
+.col-waiting-period::before{
+  width: 121px;
+  height: 120px;
+  background-position: -136px -135px;
+  margin-left: -60px;
+}
+
+.col-amount::before{
+  width: 121px;
+  height: 120px;
+  background-position: -61px -5px;
+  margin-left: -60px;
 }
 
 .feature-item__title{
@@ -244,16 +288,73 @@ body{
 }
 
 .feature-item__text{
-  width: 300px;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
+  padding: 0 15px;
 }
 
-.row-2{
+.financing{
   background-image: url("../img/bg-features.jpg");
+  color: #fff;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.row-2 .feature-item{
+.financing  .section-title{
   color: #fff;
+  text-transform: uppercase;
+}
+
+.gf-network{
+  padding-top: 50px;
+  background: url("../img/bg-gf-network.jpg") 50% 0 no-repeat;
+}
+
+.gf-network .section-title{
+  color: #4ac6b7;
+}
+
+.gf-network p{
+  margin-bottom: 80px;
+}
+
+.gf-network .feature-item{
+  padding: 0;
+  padding-left: 130px;
+}
+
+.gf-network .col-with-regress::before{
+  left: 0;
+  top: 50%;
+  margin-top: -60px;
+  width: 121px;
+  height: 120px;
+  background-position: -5px -135px;
+}
+
+.gf-network .col-no-regress::before{
+  left: 0;
+  top: 50%;
+  margin-top: -60px;
+  width: 121px;
+  height: 120px;
+  background-position: -136px -265px;
+}
+
+.col-with-regress{
+  margin-bottom: 100px;
+}
+
+.networking-advantage{
+  color: #fff;
+  background-color: #45b8ac;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.networking-advantage p{
+  text-align: left;
+  font-size: 34px;
+  line-height: 45px;
 }
