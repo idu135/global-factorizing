@@ -1,0 +1,101 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-allow-right {
+    width: 18px;
+    height: 81px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-left {
+    width: 18px;
+    height: 81px;
+    background-position: -33px -5px;
+}
+
+.sprite-bag-money {
+    width: 121px;
+    height: 120px;
+    background-position: -61px -5px;
+}
+
+.sprite-calendar {
+    width: 121px;
+    height: 120px;
+    background-position: -192px -5px;
+}
+
+.sprite-car {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -135px;
+}
+
+.sprite-clockwise {
+    width: 121px;
+    height: 120px;
+    background-position: -136px -135px;
+}
+
+.sprite-dollar {
+    width: 108px;
+    height: 107px;
+    background-position: -267px -135px;
+}
+
+.sprite-location {
+    width: 13px;
+    height: 19px;
+    background-position: -323px -5px;
+}
+
+.sprite-mail {
+    width: 16px;
+    height: 12px;
+    background-position: -346px -5px;
+}
+
+.sprite-mail-light-gray {
+    width: 16px;
+    height: 12px;
+    background-position: -346px -27px;
+}
+
+.sprite-money {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -265px;
+}
+
+.sprite-sign {
+    width: 121px;
+    height: 120px;
+    background-position: -136px -265px;
+}
+
+.sprite-tel {
+    width: 16px;
+    height: 16px;
+    background-position: -323px -49px;
+}
+
+.sprite-tel-light-gray {
+    width: 16px;
+    height: 16px;
+    background-position: -349px -49px;
+}
+
+.sprite-time {
+    width: 108px;
+    height: 107px;
+    background-position: -267px -252px;
+}
+
+.sprite-tv {
+    width: 108px;
+    height: 107px;
+    background-position: -375px -5px;
+}
