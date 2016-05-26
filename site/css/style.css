@@ -1,18 +1,25 @@
 body{
-  color: #25262a;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.layout-center-wr{
+.container{
   width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.header-topline{
+  width: 100%;
+  height: 4px;
+  background: url("../img/header-topline.png") 50% 0 repeat-x;
+  margin-bottom: 20px;
 }
 
 .main-header{
-  padding-top: 25px;
+  margin-bottom: 12px;
 }
 
-.main-header h1{
+.slogan{
+  width:430px;
   font-size: 20px;
   line-height: 36px;
   padding: 0;
@@ -20,21 +27,114 @@ body{
   padding-top: 7px;
 }
 
-.main-header h1 span{
+.main-header strong{
   color: #0082ad;
 }
 
-.main-header .contact-tel{
-  color: #15b799;
+.contact-details{
+  padding-left: 40px;
 }
 
-.navbar-nav{
+.contact-tel{
+  color: #15b799;
+  font-size: 28px;
+  position: relative;
+}
+
+.contact-mail{
+  position: relative;
+  color: #0082ad;
+}
+
+.contact-tel:before,
+.contact-mail:before{
+  width: 16px;
+  height: 16px;
+  background-position: -293px -265px;
+  display: block;
+  content: ' ';
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -25px;
+  top: 8px;
+}
+
+.contact-mail:before{
+  width: 16px;
+  height: 12px;
+  background-position: -267px -265px;
+}
+
+.navigation-menu{
+  background: #ececec;
+}
+
+.navigation-menu ul{
+  list-style: none;
+}
+
+.navigation-menu ul li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  position: relative;
+}
+
+.navigation-menu ul li a{
+  display: block;
+  font-size: 15px;
+  color: #25262a;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+.navigation-menu ul li a:hover{
+  background-color: #0082ad;
+}
+
+.navigation-menu ul ul{
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  z-index: 10;
+}
+
+.navigation-parent:hover .navigation-child{
+  display: block;
+}
+
+.navigation-menu ul ul li{
+  float: none;
   width: 100%;
 }
 
-.navbar-nav li{
-  text-align: center;
-  text-transform: uppercase;
+
+.navigation-menu ul ul a{
+  background: #0082ad;
+  text-transform: none;
+  line-height: 130%;
+  height: auto;
+  text-align: left;
+  font-size: 16px;
+  color: #FFF;
+  padding: 14px 20px;
+}
+
+.navigation-menu ul ul a:hover{
+  background: #007aa3;
+}
+
+.slider{
+  margin-bottom: 50px;
 }
 
 .slide{

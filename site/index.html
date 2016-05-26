@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Главная страница</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -17,43 +18,54 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="layout-center-wr">
+      <div class="header-topline"></div>
+      <div class="container">
         <div class="row">
-          <div class="col-lg-3 logo">
-            <img src="img/logo.png" alt="логотип" width="140" height="86">
+          <div class="col-lg-3">
+            <a href="#" class="logo"><img src="img/logo.png" alt="логотип" width="140" height="86"></a>
           </div>
-          <h1 class="col-lg-5">
-            <span>Умный факторинг</span> для развивающихся компаний малого и среднего бизнеса
+          <h1 class="col-lg-6 slogan">
+            <strong>Умный факторинг</strong> для развивающихся компаний малого и среднего бизнеса
           </h1>
-          <div class="col-lg-4 contact-details">
-            <div class="contact-tel">8-800-775-69-70</div>
+          <div class="col-lg-3 contact-details">
+            <span class="contact-tel">8-800-775-69-70</span>
             <a class="contact-mail">info@factoring-network.ru</a>
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-default">
-        <div class="layout-center-wr">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="col-lg-4"><a href="#">Финансовые решения<span class="sr-only">(current)</span></a></li>
-              <li class="col-lg-4 dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Бизнес-инструменты<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Подключение к Электронному документообороту</a></li>
-                  <li><a href="#">Оценка Контрагента</a></li>
-                  <li><a href="#">Управление Дебиторской задолженностью</a></li>
-                </ul>
-              </li>
-              <li class="col-lg-4"><a href="#">Для инвесторов</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div>
-      </nav>
     </header>
+    <section class="navigation-menu">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <li>
+              <a href="#">Финансовые решения</a>
+            </li>
+            <li class="navigation-parent">
+              <a href="#">Бизнес инструменты</a>
+              <ul class="navigation-child">
+                <li>
+                  <a href="#" >Подключение к Электронному документообороту</a>
+                </li>
+                <li>
+                  <a href="#" >Оценка Контрагента</a>
+                </li>
+                <li>
+                  <a href="#" >Управление Дебиторской задолженностью</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" >Для инвесторов</a>
+            </li>
+          </ul>
+        </div> <!-- .row-->
+      </div>
+    </section>
     <main>
       <div class="slider">
         <div class="slide slide-1">
-          <div class="layout-center-wr">
+          <div class="container">
             <div class="slide-title">Открой возможности для роста бизнеса уже сейчас</div>
             <p class="slide-text">Мы предлагаем комплекс услуг, повышающих удобство
               ведения бизнеса.
@@ -63,17 +75,7 @@
           </div>
         </div>
         <div class="slide slide-2">
-          <div class="layout-center-wr">
-            <div class="slide-title">Открой возможности для роста бизнеса уже сейчас</div>
-            <p class="slide-text">Мы предлагаем комплекс услуг, повышающих удобство
-              ведения бизнеса.
-            </p>
-            <button class="slide-btn">Получить деньги</button>
-            <a class="slide-ref">Что такое факторинг?</a>
-          </div>
-        </div>
-        <div class="slide slide-3">
-          <div class="layout-center-wr">
+          <div class="container">
             <div class="slide-title">Открой возможности для роста бизнеса уже сейчас</div>
             <p class="slide-text">Мы предлагаем комплекс услуг, повышающих удобство
               ведения бизнеса.
@@ -87,10 +89,10 @@
         <div class="prev"><span class="glyphicon glyphicon-menu-left"></span></div>
         <div class="next"><span class="glyphicon glyphicon-menu-right"></span></div>
       </div>
-      <section class="features">
+      <section class="money">
           <div class="row row-1">
             <div class="features-slogan">Удобный и простой способ получить деньги</div>
-            <div class="layout-center-wr">
+            <div class="container">
               <div class="feature-item col-lg-4">
                 <div class="feature-item__title">Разумная цена</div>
                 <p class="feature-item__text">Мы по разумной цене предоставляем услуги, которые действительно способствуют успеху в развитии Вашего бизнеса</p>
@@ -125,7 +127,12 @@
             </div>
           </div>
       </section>
+      section.
     </main>
+
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
