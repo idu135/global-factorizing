@@ -9,9 +9,9 @@
 
 (function(document, window, $){
   $(document).ready(function(){
-    $(".comments-slider").slick({
-      // prevArrow: '.controls .prev',
-      // nextArrow: '.controls .next',
+    $(".slider").slick({
+      prevArrow: '.controls .prev',
+      nextArrow: '.controls .next',
     });
   });
 })(document, window, jQuery);

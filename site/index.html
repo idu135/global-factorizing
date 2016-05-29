@@ -7,6 +7,7 @@
 
     <title>Тестовое задание</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -18,7 +19,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="header-topline"></div>
+      <div class="bg-topline"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -62,7 +63,7 @@
         </div> <!-- .row-->
       </div>
     </section>
-    <main>
+    <section class="slider-wr">
       <div class="slider">
         <div class="slide slide-1">
           <div class="container">
@@ -89,175 +90,217 @@
         <div class="prev"><span class="glyphicon glyphicon-menu-left"></span></div>
         <div class="next"><span class="glyphicon glyphicon-menu-right"></span></div>
       </div>
-      <section class="feature-money">
-        <div class="container">
-          <div class="section-title">Удобный и простой способ получить деньги</div>
-          <div class="row">
-            <div class="feature-item col-price col-lg-4">
-              <div class="feature-item__title">Разумная цена</div>
-              <p class="feature-item__text">Мы по разумной цене предоставляем услуги, которые действительно способствуют успеху в развитии Вашего бизнеса</p>
-            </div>
-            <div class="feature-item col-timing col-lg-4">
-              <div class="feature-item__title">Реальные сроки</div>
-              <p class="feature-item__text">Мы устанавливаем реальные сроки
-                по рассмотрению заявок Клиентов и соблюдаем их
-              </p>
-            </div>
-            <div class="feature-item col-factoring col-lg-4">
-              <div class="feature-item__title">Электронный факторинг</div>
-              <p class="feature-item__text">Мы активно используем в работе с контрагентами юридически значимый документооборот, что позволяет нашим партнерам получать все преимущества электронного факторинга</p>
-            </div>
+    </section>
+    <section class="money">
+      <div class="container">
+        <div class="section-title">Удобный и простой способ получить деньги</div>
+        <div class="row">
+          <div class="feature-item col-price col-lg-4">
+            <div class="feature-item__title">Разумная цена</div>
+            <p class="feature-item__text">Мы по разумной цене предоставляем услуги, которые действительно способствуют успеху в развитии Вашего бизнеса</p>
+          </div>
+          <div class="feature-item col-timing col-lg-4">
+            <div class="feature-item__title">Реальные сроки</div>
+            <p class="feature-item__text">Мы устанавливаем реальные сроки
+              по рассмотрению заявок Клиентов и соблюдаем их
+            </p>
+          </div>
+          <div class="feature-item col-factoring col-lg-4">
+            <div class="feature-item__title">Электронный факторинг</div>
+            <p class="feature-item__text">Мы активно используем в работе с контрагентами юридически значимый документооборот, что позволяет нашим партнерам получать все преимущества электронного факторинга</p>
           </div>
         </div>
-      </section>
-      <section class="financing">
-        <div class="container">
-          <div class="section-title">Условия финансирования</div>
-          <div class="row">
-            <div class="feature-item col-delay col-lg-4">
-              <div class="feature-item__title">Отсрочка платежа</div>
-              <p class="feature-item__text">До 120 календарных дней</p>
-            </div>
-            <div class="feature-item col-waiting-period col-lg-4">
-              <div class="feature-item__title">Льготный период ожидания</div>
-              <p class="feature-item__text">До 60 календарных дней</p>
-            </div>
-            <div class="feature-item col-amount col-lg-4">
-              <div class="feature-item__title">Размер финансирования</div>
-              <p class="feature-item__text">До 95% от суммы доставки</p>
-            </div>
+      </div>
+    </section>
+    <section class="financing">
+      <div class="container">
+        <div class="section-title">Условия финансирования</div>
+        <div class="row">
+          <div class="feature-item col-delay col-lg-4">
+            <div class="feature-item__title">Отсрочка платежа</div>
+            <p class="feature-item__text">До 120 календарных дней</p>
+          </div>
+          <div class="feature-item col-waiting-period col-lg-4">
+            <div class="feature-item__title">Льготный период ожидания</div>
+            <p class="feature-item__text">До 60 календарных дней</p>
+          </div>
+          <div class="feature-item col-amount col-lg-4">
+            <div class="feature-item__title">Размер финансирования</div>
+            <p class="feature-item__text">До 95% от суммы доставки</p>
           </div>
         </div>
-      </section>
-      <section class="gf-network">
-        <div class="container">
-          <div class="section-title">Global Factoring Network обязательно решит вашу задачу</div>
-          <p>
-            <strong>Вы пытаетесь увеличить Ваш бизнес, но отсутствуют идеи где
-            взять средства? </strong> У нас есть решение! Global Factoring Network –
-            это инновационный «умный» факторинг для развивающихся компаний
-            малого и среднего бизнеса.
-          </p>
-          <div class="row">
-            <div class="feature-item col-with-regress col-lg-5">
-              <div class="feature-item__title">Финансирование с регрессом</div>
-              <div class="feature-item__text">Эффективно управляй поставками и деньгами без отсрочек оплаты дебиторов и контрагентов.</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="feature-item col-no-regress col-lg-5">
-              <div class="feature-item__title">Финансирование без регресса</div>
-              <div class="feature-item__text">Уже сейчас получи до 95% от суммы поставки товара с отсрочкой платежа.</div>
-            </div>
+      </div>
+    </section>
+    <section class="gf-network">
+      <div class="container">
+        <div class="section-title">Global Factoring Network <br>обязательно решит вашу задачу</div>
+        <p>
+          <strong>Вы пытаетесь увеличить Ваш бизнес, но отсутствуют идеи где
+          взять средства? </strong> У нас есть решение! Global Factoring Network –
+          это инновационный «умный» факторинг для развивающихся компаний
+          малого и среднего бизнеса.
+        </p>
+        <div class="row">
+          <div class="feature-item col-with-regress col-lg-5">
+            <div class="feature-item__title">Финансирование с регрессом</div>
+            <div class="feature-item__text">Эффективно управляй поставками и деньгами без отсрочек оплаты дебиторов и контрагентов.</div>
           </div>
         </div>
-      </section>
-      <section class="networking-advantage">
-        <div class="container">
-          <p>
-            <strong>Мы предлагаaем вам воспользоваться всеми <br>
-            преимуществами финансового нетворкинга – <br></strong>
-            комплексного эффективного решения в сфере финансирования <br>
-            бизнеса, страхования риска неплатежа и управления дебиторской задолженностью.
-          </p>
-        </div>
-      </section>
-      <section class="ceo-comment">
-        <div class="ceo-container">
-          <strong>
-            Мы такие же как и Вы. Мы понимаем все аспекты Вашего бизнеса и готовы сделать его больше уже сегодня.
-          </strong>
-          <p>
-            Команда Global Factoring Network имеет значительный успешный опыт на рынке российского факторинга и предлагает профессиональный сервис, превосходящий самые смелые ожидания.
-          </p>
-          <table>
-            <tr>
-              <td class="ceo-container__logo">
-                <img src="img/logo.png" alt="логотип">
-              </td>
-              <td class="ceo-container__name">
-                CEO Global Factoring Network,<br>Примаченко Алексей
-              </td>
-            </tr>
-          </table>
-        </div>
-      </section>
-      <section class="partners">
-        <div class="container">
-          <div class="section-title">Мы активно развиваем бизнес с успешными компаниями</div>
-          <div class="row">
-            <div class="col-lg-3"><img src="img/partner-1.jpg" alt="СолидБанк"></div>
-            <div class="col-lg-3"><img src="img/partner-2.jpg" alt="Инносвет"></div>
-            <div class="col-lg-3"><img src="img/partner-3.jpg" alt="Стройдом"></div>
-            <div class="col-lg-3"><img src="img/partner-4.jpg" alt="Созидант"></div>
-            <div class="col-lg-3"><img src="img/partner-5.jpg" alt="Стройкомпания"></div>
+        <div class="row">
+          <div class="feature-item col-no-regress col-lg-5">
+            <div class="feature-item__title">Финансирование без регресса</div>
+            <div class="feature-item__text">Уже сейчас получи до 95% от суммы поставки товара с отсрочкой платежа.</div>
           </div>
         </div>
-      </section>
-      <section class="comments">
+      </div>
+    </section>
+    <section class="networking-advantage">
+      <div class="container">
+        <p>
+          <strong>Мы предлагаaем вам воспользоваться всеми <br>
+          преимуществами финансового нетворкинга – <br></strong>
+          комплексного эффективного решения в сфере финансирования <br>
+          бизнеса, страхования риска неплатежа и управления дебиторской задолженностью.
+        </p>
+      </div>
+    </section>
+    <section class="ceo-comment">
+      <div class="ceo-container">
+        <strong>
+          Мы такие же как и Вы. Мы понимаем все аспекты Вашего бизнеса и готовы сделать его больше уже сегодня.
+        </strong>
+        <p>
+          Команда Global Factoring Network имеет значительный успешный опыт на рынке российского факторинга и предлагает профессиональный сервис, превосходящий самые смелые ожидания.
+        </p>
+        <table>
+          <tr>
+            <td class="ceo-container__logo">
+              <img src="img/logo.png" alt="логотип">
+            </td>
+            <td class="ceo-container__name">
+              CEO Global Factoring Network,<br>Примаченко Алексей
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="bg-box"></div>
+    </section>
+    <section class="partners">
+      <div class="container">
         <div class="section-title">Мы активно развиваем бизнес с успешными компаниями</div>
-        <div class=" slider comments-slider">
-          <div class="comments-slide comments-slide-1">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-left">
-                  <p class="comment-content">
-                    Факторинговые решения, предлагаемые Global Factoring Network,
-                    являются удобными, технологичными и всегда соответстуют нашим
-                    амбициозным запросам. Сотрудничество с таким надежным финансовым
-                    партнером позволяет бизнесу нашей компании выйти на
-                    совершенно новый качественный уровень развития.
-                  </p>
-                  <span class="comment-name">
-                    Константин Вагин<br>ген. директор Инносвет
-                  </span>
-                </div>
-                <div class="col-lg-6 col-right">
-                  <p class="comment-content">
-                    В лице Global Factoring Network мы нашли серьезного предсказуемого
-                    партнера для компаний нашей группы.
-                  </p>
-                  <span class="comment-name">
-                    Владимир Семернин, <br>Президент ФД Солид
-                  </span>
-                </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-3"><img src="img/partner-1.jpg" alt="СолидБанк"></div>
+          <div class="col-lg-3"><img src="img/partner-2.jpg" alt="Инносвет"></div>
+          <div class="col-lg-3"><img src="img/partner-3.jpg" alt="Стройдом"></div>
+          <div class="col-lg-3"><img src="img/partner-4.jpg" alt="Созидант"></div>
+          <div class="col-lg-3"><img src="img/partner-5.jpg" alt="Стройкомпания"></div>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="section-title">Мы активно развиваем бизнес с успешными компаниями</div>
+      <div class=" comments-slider">
+        <div class="comments-slide-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-left">
+                <p class="comment-content">
+                  Факторинговые решения, предлагаемые Global Factoring Network,
+                  являются удобными, технологичными и всегда соответстуют нашим
+                  амбициозным запросам. Сотрудничество с таким надежным финансовым
+                  партнером позволяет бизнесу нашей компании выйти на
+                  совершенно новый качественный уровень развития.
+                </p>
+                <span class="comment-name">
+                  Константин Вагин<br>ген. директор Инносвет
+                </span>
+              </div>
+              <div class="col-lg-6 col-right">
+                <p class="comment-content">
+                  В лице Global Factoring Network мы нашли серьезного предсказуемого
+                  партнера для компаний нашей группы.
+                </p>
+                <span class="comment-name">
+                  Владимир Семернин, <br>Президент ФД Солид
+                </span>
+              </div>
           </div>
-          <div class="comments-slide comments-slide-2">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-left">
-                  <p class="comment-content">
-                    Факторинговые решения, предлагаемые Global Factoring Network,
-                    являются удобными, технологичными и всегда соответстуют нашим
-                    амбициозным запросам. Сотрудничество с таким надежным финансовым
-                    партнером позволяет бизнесу нашей компании выйти на
-                    совершенно новый качественный уровень развития.
-                  </p>
-                  <span class="comment-name">
-                    Константин Вагин<br>ген. директор Инносвет
-                  </span>
-                </div>
-                <div class="col-lg-6 col-right">
-                  <p class="comment-content">
-                    В лице Global Factoring Network мы нашли серьезного предсказуемого
-                    партнера для компаний нашей группы.
-                  </p>
-                  <span class="comment-name">
-                    Владимир Семернин, <br>Президент ФД Солид
-                  </span>
-                </div>
+        </div>
+      </div>
+    </section>
+    <section class="call-us">
+      <div class="container">
+        <p>
+          Хотите узнать стоимость услуг?<br>
+          ЗВОНИТЕ! <span><em>8-800-</em>775-69-70</span>
+        </p>
+      </div>
+    </section>
+    <section class="about-factoring">
+      <div class="container">
+        <div class="section-title">Что нужно знать о факторинге</div>
+         <div class="row">
+           <div class="feature-item col-amount col-lg-4">
+             <div class="feature-item__title">100 000 &#8381;</div>
+             <div class="feature-item__text">
+               Размер дебиторской задолженности
+             </div>
+           </div>
+           <div class="feature-item col-price col-lg-4">
+             <div class="feature-item__title">900 000 &#8381;</div>
+             <div class="feature-item__text">
+               Получение первого финансирования (платежа)
+             </div>
+           </div>
+           <div class="feature-item col-coins col-lg-4">
+             <div class="feature-item__title">8 000 &#8381;</div>
+             <div class="feature-item__text">
+               Получение окончательного расчета (второго платежа)
+             </div>
+           </div>
+         </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container">
+        <div class="form-wr">
+          <div class="form-title">Остались вопросы?</div>
+          <p>Оставьте заявку и мы расскажем о факторинге <span>ВСЕ!</span></p>
+          <form method="post" action="#">
+            <input type="text" class="form-control" id="tel-number" placeholder="Ваш телефон">
+            <button type="submit" class="btn btn-default">Заказать обратный звонок</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="bg-topline"></div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <a href="#" class="logo"><img src="img/logo.png" alt="логотип" width="140" height="86"></a>
+          </div>
+          <div class="col-lg-5 contact-details">
+            <span class="contact-tel">8-800-775-69-70</span>
+            <a class="contact-mail">info@factoring-network.ru</a>
+            <div class="contact-address">Москва, 123007 Хорошевское шоссе 32А</div>
+          </div>
+          <div class="col-lg-2">
+            <a href="#" class="about-company">О компании</a>
+            <div class="social-btns">
+              <a href="#" class="social-btn insta"></a>
+              <a href="#" class="social-btn ok"></a>
+              <a href="$" class="social-btn fb"></a>
+              <a href="$" class="social-btn vk"></a>
             </div>
           </div>
         </div>
-      </section>
-      <section class="call-us">
-        <div class="container">
-          <p>Хотите узнать стоимость услуг?</p>
-          <span>Звоните! </span><em>8-800-775-69-70</em>
-        </div>
-      </section>
-    </main>
+      </div>
+      <div class="copyright">
+        <p>© Global Factoring Network 2015</p>
+      </div>
+    </footer>
+
 
 
 
